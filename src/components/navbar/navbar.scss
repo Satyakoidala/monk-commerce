@@ -17,9 +17,12 @@
 		padding-inline-start: 7px;
 	}
 	.rf-monk-theme-button {
-		position: relative;
-		left:750px;
-		// justify-content: flex-end;
-		text-align: right;
+		position: absolute;
+		right:20px;
+		background-color: inherit;
+		
+		span {
+			font-size: 30px;
+		}
 	}
 }

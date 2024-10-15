@@ -236,7 +236,7 @@ const ProductList = () => {
 
 	return (
 		<div className="product-list-wrapper">
-			<h1 className="product-list-header">
+		{ list.length >0 &&	<><h1 className="product-list-header">
 				{_.get(properties, "addProducts")}
 			</h1>
 			<div className="product-list">
@@ -276,7 +276,7 @@ const ProductList = () => {
 						);
 					})}
 				</div>
-			</div>
+			</div></> }
 			<div className="actions row">
 				<AddProductButton onClick={createEmptyProduct} />
 			</div>

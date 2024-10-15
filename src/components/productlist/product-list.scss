@@ -21,6 +21,7 @@
 	padding-inline-start: 10px;
 	color: index.$monk-header;
 	padding-block-end: 16px;
+	visibility: hidden;
 }
 
 .product-list {
@@ -95,10 +96,6 @@
 			padding-inline: 5px;
 		}
 	}
-}
-
-.actions {
-	justify-content: flex-end;
 }
 
 .show-variants-link {

@@ -15,7 +15,7 @@ const NavBar = () => {
 	}, [theme])
 
 	const toggleButton = (<button type="button" className="rf-monk-theme-button" onClick={handleToggleTheme}>
-		Switch to {theme === 'light' ? 'Dark' : 'Light'} Theme
+		 {theme === 'light' ? <span title="dark theme">&#127761;</span> : <span title="light theme">&#127765;</span>} 
 	</button>)
 
 	return (
