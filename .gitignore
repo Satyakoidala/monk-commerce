@@ -5,9 +5,8 @@ node_modules/
 dist/
 build/
 
+# module or setup folders
 .vscode
 .husky
-
 .eslintcache
-
 .env
